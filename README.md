@@ -1,2 +1,0 @@
-# TestLinkedList
-LinkedList for testing
