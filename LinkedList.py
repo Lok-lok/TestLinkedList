@@ -159,6 +159,7 @@ if __name__=="__main__":
     LinkedList.addToFront(10)
     LinkedList.addToBack(12)
     LinkedList.insert(7, 1)
+    LinkedList.insert(6, 1)
     print(LinkedList.get(2))
     print(LinkedList.remove(2))
     print(LinkedList)
