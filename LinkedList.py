@@ -97,7 +97,7 @@ class LinkedList():
         '''
         if not isinstance(pos, int):
             raise TypeError("position must be an int")
-        if not pos>=0&pos<self.size:
+        if not pos>=0 and pos<self.size:
             raise TypeError("position out of range")
         
         current=self.first
@@ -110,7 +110,7 @@ class LinkedList():
             raise TypeError("input must be an int")
         if not isinstance(pos, int):
             raise TypeError("position must be an int")
-        if not pos>=0&pos<self.size:
+        if not pos>=0 and pos<self.size:
             raise TypeError("position out of range")
         
         current=self.first
@@ -130,7 +130,7 @@ class LinkedList():
         '''
         if not isinstance(pos, int):
             raise TypeError("position must be an int")
-        if not pos>=0&pos<self.size:
+        if not pos>=0 and pos<self.size:
             raise TypeError("position out of range")
         
         current=self.first
